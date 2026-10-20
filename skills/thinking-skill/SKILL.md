@@ -8,10 +8,8 @@ description: For nearly any coding task in this editor — writing, editing, deb
 Follow these steps when tackling a task. Keep every step token-efficient and on-topic.
 
 ## 1. Gather context
-Check whether you already have a map of the whole project. If yes, go to step 2 immediately.
-Otherwise:
-- **Given file context** — explore only the local files (max 3 levels deep) plus every file they reference.
-- **No file context** — list and map the whole project for context.
+- **Given file context** — Explore only files in path + references (max 3 levels deep)
+- **No file context** — Scan whole project structure first, then focus
 
 ## 2. Plan
 Think deeply about how to solve the problem and write a multi-step plan.

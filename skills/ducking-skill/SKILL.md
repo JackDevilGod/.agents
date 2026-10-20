@@ -25,7 +25,10 @@ List plausible root causes, most likely first, then a short list of alternatives
 Echo the user's read and flag any assumption or gap that could be hiding the bug.
 
 ### 4. Suggest checks
-Propose 1–3 cheap experiments that separate the top candidates.
+Propose 1–3 cheap experiments to separate top candidates:
+- **Add logging** around suspected boundaries (input/output of failing function)
+- **Run with controlled input** (empty string, single element, max/min values)
+- **Isolate scope** by creating minimal reproduction with only the suspected component
 
 ### 5. Recommend one move
-End with the single best thing to try next, and what to look for.
+Give ONE concrete next step. Format: **Try X** + **Expected result**. If A → B; if not → C.

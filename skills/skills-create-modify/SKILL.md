@@ -4,6 +4,7 @@ description: Create and modify LLM skills globally with documentation, configura
 ---
 
 ## Overview
+
 Agent skills are stored in `~/.agents/skills`. Each skill follows `{skill name}/SKILL.md` structure. Files contain clear steps for agents to perform tasks related to the skill.
 
 ## Creating a New Skill
