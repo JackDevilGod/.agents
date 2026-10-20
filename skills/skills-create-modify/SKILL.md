@@ -1,5 +1,5 @@
 ---
-name: create and modify skill globally
+name: skills-create-modify
 description: Create and modify LLM skills globally with documentation, configuration, and dependencies.
 ---
 
