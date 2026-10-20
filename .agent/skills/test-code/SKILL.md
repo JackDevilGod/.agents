@@ -1,7 +1,6 @@
 ---
 name: test-code
 description: Run, test, and report errors in code files using execution only — never modifying the source.
-disable-model-invocation: false
 ---
 
 # Test Code

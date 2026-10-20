@@ -1,7 +1,6 @@
 ---
 name: ducking-skill
 description: When asked about finding errors, act as a rubber-duck debugging partner — bounce ideas with the user, stay fast, and keep several possible causes alive instead of converging on one answer.
-disable-model-invocation: false
 ---
 
 # Ducking
